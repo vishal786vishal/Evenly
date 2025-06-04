@@ -1,0 +1,34 @@
+package SeleniumRahul;
+
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.util.List;
+
+public class emailFetching {
+    public static void main(String[] args) {
+        // Set up ChromeDriver
+        System.setProperty("webdriver.chrome.driver", "/path/to/chromedriver");
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.linkedin.com");
+
+        try {
+            // Open a publicly scrapable website (example)
+            driver.get("https://example.com/contacts");  // Replace with a legal source
+
+            // Get all elements that might contain email addresses
+            List<WebElement> elements = driver.findElements(By.xpath("//*[contains(text(),'gmail.com')]"));
+
+            // Print each found email-containing element
+            for (WebElement element : elements) {
+                System.out.println("Found: " + element.getText());
+            }
+        } finally {
+            driver.quit();
+        }
+    }
+}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="SeleniumPractice"/>
+			<item value="vishalchugh"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="Selenium-Java"/>
+			<item value="SeleniumJava"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\vishal.chugh\eclipse-workspace\NaveenS"/>
+			<item value="C:\Users\vishal.chugh\eclipse-workspace\NaveenSelenium\src\main"/>
+			<item value="C:\Users\vishal.chugh\eclipse-workspace\Selenium\src\SeleniumRahul\Locators.java"/>
+			<item value="C:\Users\vishal.chugh\eclipse-workspace\Introduction\src\selfIntroduction.java"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="NaveenS"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="NaveenS"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="Evenly.Evenly"/>
+			<item value="NaveenSelenium.NaveenSessions"/>
+			<item value="NaveenSelenium.NaveenSelenium"/>
+		</list>
+		<list key="groupId">
+			<item value="Evenly"/>
+			<item value="NaveenSelenium"/>
+		</list>
+		<list key="artifactId">
+			<item value="Evenly"/>
+			<item value="NaveenSessions"/>
+			<item value="NaveenSelenium"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="NaveenS"/>
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

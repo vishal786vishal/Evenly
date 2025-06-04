@@ -1,0 +1,16 @@
+package JavaPractice;
+
+public class instancev {
+ int x=20;
+//void show ()
+//{
+	//System.out.println(this.x);
+//}
+class banga extends instancev{
+	public static void main(String[] args)
+	{
+	instancev v = new instancev();
+		System.out.println(v.x);
+	}
+
+}}

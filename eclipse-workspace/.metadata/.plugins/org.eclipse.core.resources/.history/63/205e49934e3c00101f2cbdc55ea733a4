@@ -1,0 +1,26 @@
+package JavaPractice;
+
+public class LenthOfLastWord {
+
+	public static void main(String[] args) {
+		String str = "Hello World";
+		System.out.println(LenthOfLastWord(str));
+
+	}
+static int LenthOfLastWord(String s) {
+	String str = s.trim();
+	int count = 0;
+	
+	for(i=str.length();i<=1;i--)
+	{
+if (str.chatAt(i)!=" ")	
+{
+	count++;
+	}
+else {
+	break;
+	
+}
+return count"
+}
+}
